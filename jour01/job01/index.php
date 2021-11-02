@@ -7,7 +7,7 @@ $str2 = "vive";
 
 $str3 = "!";
 
-echo "<br/>".$str2.$str. $str3;
+echo "<br/>".$str2." ".$str." ".$str3;
 
 $val = 6;
 
