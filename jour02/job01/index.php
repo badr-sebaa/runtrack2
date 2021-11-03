@@ -1,12 +1,12 @@
 <?php
 
-$i=0;
+$number=0;
 
-while($i<=1336):
-    $i++;
-    if($i==42){
-        echo "<br/>"."<b><u>".$i."</b></u>";
+while($number<=1337):
+    if($number==42){
+        echo "<br/>"."<b><u>".$number."</b></u>";
     }
-    echo "<br/>".$i;
+    echo "<br/>".$number;
+    $number++;
 endwhile;
 ?>

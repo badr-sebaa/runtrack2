@@ -1,18 +1,18 @@
 <?php
 
-$i=0;
+$number=0;
 
-while($i<=99):
-    $i++;
-    if(!($i%3) and !($i%5)){
+while($number<=99):
+    if(!($number%3) and !($number%5)){
     echo "<br/>"."FizzBuzz";
      }
-    elseif(!($i%5)){
+    elseif(!($number%5)){
         echo "<br/>"."Buzz";
          }
-    elseif(!($i%3)){
+    elseif(!($number%3)){
         echo "<br/>"."Fizz";
     }
-    else{echo "<br/>".$i;}
+    else{echo "<br/>".$number;}
+    $number++;
 endwhile;
 ?>
