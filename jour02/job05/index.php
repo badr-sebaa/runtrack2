@@ -11,7 +11,7 @@ function nbPremier($number) {
     return true;
 }
 
-for ($i = 3; $i < 1000; $i++) {
+for ($i = 2; $i < 1000; $i++) {
     if (nbPremier($i)) {
         echo "<br/>".$i;
     }
