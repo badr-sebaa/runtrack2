@@ -1,0 +1,1 @@
+SELECT SUM(capacite) AS 'CAPACITE_TOTALE' FROM `salles`
