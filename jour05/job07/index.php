@@ -1,16 +1,25 @@
 <?php
 
+$maj = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z'];
+
     function gras($str){
         
         for($i = 0; isset($str[$i]);$i++){
-            for($y=0;$str[$y] != ' ';$y++)
-            if(ctype_upper($str[$y])){
-
-                    return '<b>'.$str[$y].'</b>';
+            for($y=0 ; isset($maj[$y]);$y++){
+                if($i = 0 and $str[$i] == $maj[$y]){
+                    while($str[$i] != ' '){
+                        echo '<b>'.$str[$i].'</b>';
+                    }
+                }
+                
+                elseif($str[$i-1] == ' ' and $str[$i] == $maj[$y]){
+                    while($str[$i] != ' '){
+                        echo '<b>'.$str[$i].'</b>';
+                    }
+                }
             }
+
         }
-
-
 
     }
 
